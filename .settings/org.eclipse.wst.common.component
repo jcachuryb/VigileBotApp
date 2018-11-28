@@ -6,7 +6,7 @@
         <dependent-module archiveName="vigile-selenium.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/vigileSE/vigileSE">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="VigileBot"/>
         <property name="java-output-path" value="/VigileBot/build/classes"/>
+        <property name="context-root" value="VigileBotApp"/>
     </wb-module>
 </project-modules>
