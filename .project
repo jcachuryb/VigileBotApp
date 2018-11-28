@@ -3,7 +3,7 @@
 	<name>VigileBot</name>
 	<comment></comment>
 	<projects>
-		<project>vigile-selenium</project>
+		<project>vigileSE</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -32,9 +32,10 @@ public class VigileApp {
 			VigileBotProperties.timer_consulta_cuentas = getProperty("timer_consulta_cuentas");
 			VigileBotProperties.timer_consulta_procesos = getProperty("timer_consulta_procesos");
 
+			config();
 			// Iniciar Timers
 			VigileBotApp.init();
-			
+
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			return;
@@ -47,9 +48,6 @@ public class VigileApp {
 				}
 			}
 		}
-
-		config();
-
 	}
 
 	public static void start() {
