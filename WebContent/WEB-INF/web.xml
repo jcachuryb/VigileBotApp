@@ -17,9 +17,17 @@
 		<servlet-name>ConsultaProcesoServlet</servlet-name>
 		<servlet-class>com.absoft.servlet.ConsultaProcesoServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>ConsultaCompletaServlet</servlet-name>
+		<servlet-class>com.absoft.servlet.ConsultaCompletaServlet</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>ConsultaProcesoServlet</servlet-name>
 		<url-pattern>/consultaIndividual</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConsultaCompletaServlet</servlet-name>
+		<url-pattern>/consultaCompleta</url-pattern>
 	</servlet-mapping>
 </web-app>

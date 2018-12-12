@@ -7,7 +7,6 @@ import java.text.DateFormatSymbols;
 import java.util.Locale;
 import java.util.Properties;
 
-import com.absoft.oper.ConsultaProcedure;
 import com.absoft.services.db.ParseServer;
 
 public class VigileApp {
@@ -50,11 +49,6 @@ public class VigileApp {
 		}
 	}
 
-	public static void start() {
-		ConsultaProcedure procedimiento = new ConsultaProcedure();
-		procedimiento.inciaConsultaGeneralProcesos();
-	}
-
 	public static String getProperty(String property) {
 		try {
 			return prop.getProperty(property);
@@ -78,9 +72,4 @@ public class VigileApp {
 		System.setProperty("webdriver.chrome.driver", getProperty("chromedriver.path"));
 	}
 
-	public static void main(String[] args) {
-		init();
-
-		start();
-	}
 }
